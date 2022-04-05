@@ -1,13 +1,18 @@
 <template>
-  <footer class="footer has-cards">
+  <footer
+    class="footer has-cards"
+    style="
+      background: linear-gradient(150deg, black 15%, #322a42 70%, black 94%);
+    "
+  >
     <div class="container container-lg">
       <div class="row">
         <div class="col-md-12 my-5 mb-md-0 text-center">
-          <h1><strong>Projects</strong></h1>
+          <h1 style="color: white"><strong>Projects</strong></h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12 my-5 mb-md-0">
+        <div class="col-md-6 my-5 mb-md-0">
           <div class="card card-lift--hover shadow border-0">
             <router-link to="/landing" title="Landing Page">
               <img
@@ -17,7 +22,7 @@
             </router-link>
           </div>
         </div>
-        <div class="col-md-12 my-5 mb-lg-0">
+        <div class="col-md-6 my-5 mb-lg-0">
           <div class="card card-lift--hover shadow border-0">
             <router-link to="/profile" title="Profile Page">
               <img
@@ -27,7 +32,7 @@
             </router-link>
           </div>
         </div>
-        <div class="col-md-12 my-5 mb-md-0">
+        <div class="col-md-6 my-5 mb-md-0">
           <div class="card card-lift--hover shadow border-0">
             <router-link to="/profile" title="Profile Page">
               <img
@@ -39,7 +44,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container border-top mt-4">
       <div class="row row-grid align-items-center my-md">
         <div class="col-lg-6">
           <h3 class="text-primary font-weight-light mb-2">
@@ -96,8 +101,8 @@
       <div class="row align-items-center justify-content-md-between">
         <div class="col-md-6">
           <div class="copyright">
-            &copy; {{ year }}
-            <a
+            <!-- &copy; {{ year }} -->
+            <!-- <a
               href="https://www.creative-tim.com"
               target="_blank"
               rel="noopener"
@@ -106,10 +111,10 @@
             &
             <a href="https://www.binarcode.com" target="_blank" rel="noopener"
               >Binar Code</a
-            >
+            > -->
           </div>
         </div>
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
           <ul class="nav nav-footer justify-content-end">
             <li class="nav-item">
               <a
@@ -148,7 +153,7 @@
               >
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>

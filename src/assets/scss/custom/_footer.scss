@@ -58,10 +58,11 @@
         position: absolute;
         left: 0;
         right: 0;
-        top: 600px;
+        top: 620px;
         height: 2000px;
-        background: theme-color("secondary");
-        transform: skew(0,-8deg);
+        // background: theme-color("secondary");
+        transform: skew(0,-5deg, -5deg);
+        background: linear-gradient(150deg, black 15%, #322a42 70%, black 94%);
     }
 
     .container {

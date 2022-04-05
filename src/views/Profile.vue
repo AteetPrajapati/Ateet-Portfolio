@@ -11,14 +11,19 @@
         <span></span>
       </div>
     </section>
-    <section class="section section-skew">
+    <section
+      class="section section-skew"
+      style="
+        background: linear-gradient(150deg, black 15%, #322a42 70%, black 94%);
+      "
+    >
       <div class="container">
-        <card shadow class="card-profile mt--300" no-body>
+        <card shadow class="card-profile mt--300" style="z-index: 1">
           <div class="px-4">
             <div class="row justify-content-center">
               <div class="col-lg-3 order-lg-2">
                 <div class="card-profile-image">
-                  <a href="#">
+                  <a>
                     <img
                       v-lazy="'img/theme/IMG_20220114_155926.jpg'"
                       class="rounded-circle"
@@ -63,7 +68,7 @@
               <div class="h6 font-weight-300">
                 <i class="ni location_pin mr-2"></i>Gujarat, India
               </div>
-              <div class="h6 mt-4">
+              <div class="h6 mt-2">
                 <i class="ni business_briefcase-24 mr-2"></i>Computer Science
                 End Engineerinng
               </div>
@@ -72,10 +77,10 @@
                 University
               </div>
             </div>
-            <div class="mt-5 py-5 border-top">
+            <div class="p-2">
               <div class="row justify-content-center">
-                <div class="col-lg-9">
-                  <base-alert type="primary">
+                <div class="col-lg-12">
+                  <base-alert type="default">
                     <!-- <span class="alert-inner--icon"
                       ><i class="ni ni-like-2"></i
                     ></span> -->
@@ -96,33 +101,72 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
+                  <base-button type="primary">
+                    <span>Skills</span>
+                    <badge type="default" style="color: white">10</badge>
+                  </base-button>
+                </div>
+                <div class="col-lg-6 mt-4">
                   <div class="mycutom-tab">
-                    <tabs>
-                      <tab-pane>
-                        <span slot="title" class="nav-link-icon d-block"
-                          >Vue Teachnology</span
-                        >
-
-                        <div>
-                          <base-progress
-                            type="default"
-                            :value="60"
-                            label="Task completed"
-                          ></base-progress>
-                          <base-progress
-                            type="primary"
-                            :value="60"
-                            label="Task completed"
-                          ></base-progress>
-                        </div>
-                      </tab-pane>
-                      <tab-pane>
-                        <span slot="title" class="nav-link-icon d-block"
-                          >React js</span
-                        >
-                      </tab-pane>
-                    </tabs>
+                    <div>
+                      <base-progress
+                        type="danger"
+                        :value="90"
+                        label="html"
+                      ></base-progress>
+                      <base-progress
+                        type="danger"
+                        :value="90"
+                        label="css"
+                      ></base-progress>
+                      <base-progress
+                        type="danger"
+                        :value="90"
+                        label="javascript"
+                      ></base-progress>
+                      <base-progress
+                        type="danger"
+                        :value="90"
+                        label="Vuejs (Vue2)"
+                      ></base-progress>
+                      <base-progress
+                        type="danger"
+                        :value="80"
+                        label="Reactjs"
+                      ></base-progress>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mt-4">
+                  <div class="mycutom-tab">
+                    <div>
+                      <base-progress
+                        type="danger"
+                        :value="85"
+                        label="bootstrap-vue"
+                      ></base-progress>
+                      <base-progress
+                        type="danger"
+                        :value="90"
+                        label="vuetify"
+                      ></base-progress>
+                      <base-progress
+                        type="danger"
+                        :value="90"
+                        label="ag-grid"
+                      ></base-progress>
+                      <base-progress
+                        type="danger"
+                        :value="90"
+                        label="ioniic-vue"
+                      ></base-progress>
+                      <base-progress
+                        type="danger"
+                        :value="70"
+                        label="redux"
+                      ></base-progress>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -143,5 +187,8 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
+.progress-wrapper {
+  padding-top: 0px;
+}
 </style>
