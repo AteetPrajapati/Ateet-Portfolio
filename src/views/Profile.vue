@@ -34,13 +34,31 @@
               <div
                 class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center"
               >
-                <div class="card-profile-actions py-4 mt-lg-0">
-                  <base-button type="info" size="sm" class="mr-4"
-                    >Connect</base-button
-                  >
-                  <base-button type="default" size="sm" class="float-right"
-                    >Message</base-button
-                  >
+                <div
+                  class="
+                    card-profile-actions
+                    py-4
+                    px-0
+                    mt-lg-0
+                    d-flex
+                    justify-content-center
+                  "
+                >
+                  <base-button type="success" size="sm" class="mr-4"
+                    ><a
+                      style="color: white"
+                      target="blank"
+                      href="https://wa.me/9328409012/?text=urlencodedtext"
+                      ><i class="fa fa-whatsapp" style="font-size: 24px"></i></a
+                  ></base-button>
+                  <base-button type="primary" size="sm" class="float-right"
+                    ><a
+                      style="color: white"
+                      target="blank"
+                      href="https://www.linkedin.com/in/ateet-prajapati-0a1028195/"
+                      ><i class="fa fa-linkedin" style="font-size: 24px"></i
+                    ></a>
+                  </base-button>
                 </div>
               </div>
               <div class="col-lg-4 order-lg-1">
