@@ -58,7 +58,7 @@
           <a
             target="_blank"
             rel="noopener"
-            href="https://twitter.com/creativetim"
+            href="https://twitter.com"
             class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg"
             data-toggle="tooltip"
             data-original-title="Follow us"
@@ -68,7 +68,7 @@
           <a
             target="_blank"
             rel="noopener"
-            href="https://www.facebook.com/creativetim"
+            href="https://www.facebook.com/prajapati.ateet"
             class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg"
             data-toggle="tooltip"
             data-original-title="Like us"

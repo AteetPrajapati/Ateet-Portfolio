@@ -100,7 +100,7 @@
         <li class="nav-item">
           <a
             class="nav-link nav-link-icon"
-            href="https://www.facebook.com/creativetim"
+            href="https://www.facebook.com/prajapati.ateet"
             target="_blank"
             rel="noopener"
             data-toggle="tooltip"
@@ -113,7 +113,7 @@
         <li class="nav-item">
           <a
             class="nav-link nav-link-icon"
-            href="https://www.instagram.com/creativetimofficial"
+            href="https://www.instagram.com/ateet_r_p"
             target="_blank"
             rel="noopener"
             data-toggle="tooltip"
@@ -126,7 +126,7 @@
         <li class="nav-item">
           <a
             class="nav-link nav-link-icon"
-            href="https://twitter.com/creativetim"
+            href="https://twitter.com"
             target="_blank"
             rel="noopener"
             data-toggle="tooltip"
@@ -139,7 +139,7 @@
         <li class="nav-item">
           <a
             class="nav-link nav-link-icon"
-            href="https://github.com/creativetimofficial/vue-argon-design-system"
+            href="https://github.com/AteetPrajapati"
             target="_blank"
             rel="noopener"
             data-toggle="tooltip"
