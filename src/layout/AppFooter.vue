@@ -14,7 +14,7 @@
       <div class="row">
         <div class="col-md-4 my-5 mb-md-0">
           <div class="card card-lift--hover shadow border-0">
-            <router-link to="/projects" title="Landing Page">
+            <router-link to="/projects/1" title="Landing Page">
               <img
                 v-lazy="'img/theme/Screenshot 2022-04-04 193946.jpg'"
                 class="card-img"
@@ -24,7 +24,7 @@
         </div>
         <div class="col-md-4 my-5 mb-lg-0">
           <div class="card card-lift--hover shadow border-0">
-            <router-link to="/projects" title="Profile Page">
+            <router-link to="/projects/2" title="Profile Page">
               <img
                 v-lazy="'img/theme/Screenshot 2022-04-04 194613.jpg'"
                 class="card-img"
@@ -34,7 +34,7 @@
         </div>
         <div class="col-md-4 my-5 mb-md-0">
           <div class="card card-lift--hover shadow border-0">
-            <router-link to="/projects" title="Profile Page">
+            <router-link to="/projects/3" title="Profile Page">
               <img
                 v-lazy="'img/theme/Screenshot 2022-04-04 194940.jpg'"
                 class="card-img"

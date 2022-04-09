@@ -33,7 +33,7 @@ export default new Router({
       }
     },
     {
-      path: "/projects",
+      path: "/projects/:id",
       name: "projects",
       components: {
         default: ProjectsVue,
